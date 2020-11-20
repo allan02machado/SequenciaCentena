@@ -6,7 +6,15 @@ namespace SequenciaCentena
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int contador = 1;
+
+            Console.WriteLine("Exibindo os 100 primeiros números naturais não nulos...");
+            Console.WriteLine();
+            while(contador <= 100)
+            {
+                Console.Write($"{contador} ");
+                contador++;
+            }
         }
     }
 }
